@@ -1,0 +1,98 @@
+*{
+   margin: 0;
+   padding: o;
+   box-sizing: border-box;  
+   font-family: sans-serif;    
+
+}
+.top-head{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            width: 100%;
+            height: 50px;
+            background-color: lightgrey;
+            padding-top: 10px;
+}
+
+
+
+.navbar{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        
+}
+.nav-logo{
+           font-size: 20px;
+           color: blue;
+           padding-left: 20px;
+           padding-top: 5px;
+
+}
+.nav-list a{
+             padding-right: 20px;
+             text-decoration: none;
+              color: black;
+              font-weight: 700;
+
+}
+.nav-list button{
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            border: none;
+
+}
+.center-page{
+             width: 100%;
+             display: flex;
+             height: 80vh;
+             flex-wrap: wrap;
+             
+
+}
+.left-page{
+          width: 50%;
+          background-color: rgb(4, 4, 194);
+
+}
+.heading-row{
+            color: white;
+            font-size: 20px;
+             margin: 100px 50px;
+             
+
+}
+.left-line{
+    display: flex;
+    justify-content: space-around;
+}
+.left-line div{
+        border-left: 2px solid white;
+        color: white;
+        margin-top: -70px;
+        margin-left: -20px;
+        padding-left: 5px;
+
+    
+}
+.number-list{
+
+          font-size: 25px;
+          font-weight: bold;
+}
+.right-page{
+           width: 50%;
+           
+       
+           
+
+}
+.right-page img{
+        width: 100%;
+          background-size: cover;
+          height: 80vh;
+          background-repeat: no-repeat;
+}
